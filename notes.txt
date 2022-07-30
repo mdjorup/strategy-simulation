@@ -21,3 +21,4 @@ What we need:
     - amount invested
     - execute order function
 - function to load market data
+
