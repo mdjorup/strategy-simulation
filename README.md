@@ -14,4 +14,9 @@ So far, I haven't found a combination of stocks, timeframes, parameters, and lim
 ## Getting Started
 
 1. Run `git clone https://github.com/mdjorup/strategy-simulation.git` in the command line in a directory of your choice.
-2.
+2. Create a virtual environment of your choosing
+3. Activate your virtual environment
+4. Install the dependencies in `requirements.txt` into your virtual envrionment
+5. Modify the configuration for the simulation in `simulation.py`. You can change the `parameters`, the stock, the limit expiration time, and the simluation timeframe.
+6. Run the simulation by running `python ./src/simulation.py
+7. Analyze your results
