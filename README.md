@@ -12,3 +12,6 @@ This repo implements a simulated attempt at beating the stock market. The thesis
 So far, I haven't found a combination of stocks, timeframes, parameters, and limit time frames that have been able to beat the base case. If you think this strategy has some promise and should be able to beat the market, prove me wrong by following the steps below.
 
 ## Getting Started
+
+1. Run `git clone https://github.com/mdjorup/strategy-simulation.git` in the command line in a directory of your choice.
+2.
