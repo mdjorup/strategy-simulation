@@ -12,7 +12,7 @@ class Stock:
 
 
 
-def load_data(symbol, period='1y'):
+def load_data(symbol: str, period: str = '1y'):
 
     stock = yfinance.Ticker(symbol)
 
