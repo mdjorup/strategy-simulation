@@ -1,0 +1,23 @@
+Trading Idea: Buy the market, but slightly more optimally
+
+The strategy goes as follows:
+- Start with 0$ in a simulated account
+- Every d trading days, add x dollars to the account
+- When the money is added, do the following things:
+    - Parameters: a dictionary with the allocation of funds {1: 0.5, .95: 0.25, .90: 0.25 }
+    - Make market and limit orders based on the set allocation of funds
+    - These limit orders expire in p trading periods
+- Every day, check if any of the available limit orders can be bought or sold
+- keep track of account balance over time
+- Base case is {1: 1} --> goal is to beat this number
+
+What we need:
+- Order object
+    - price
+    - shares
+    - expiration
+- Account object
+    - shares owned
+    - amount invested
+    - execute order function
+- function to load market data
